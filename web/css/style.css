@@ -1,0 +1,10 @@
+body { background: #eee; }
+#container { border: 1px solid #ddd; background: white; padding: 15px; }
+#targetArea { border: 1px solid #aaa; width: 306px; float: left; margin: 15px; }
+#sourceArea { border: 1px solid #aaa; width: 306px; float: left; margin: 15px; }
+.cell { border: 1px solid #ccc; float: left; width: 100px; height: 100px; }
+
+.sourceCell {
+    background: -webkit-linear-gradient(top, #fff, #eee);
+    text-align: center; font-size: 50px; line-height: 100px;
+}
