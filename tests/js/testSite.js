@@ -4,7 +4,7 @@ TestCase("TestSite", {
     {
         // Arrange
         targetArea = new TargetArea();
-        sourceArea = new TargetArea();
+        sourceArea = new SourceArea();
 
         this.mock(targetArea).expects('draw').once();
         this.mock(sourceArea).expects('draw').once();
